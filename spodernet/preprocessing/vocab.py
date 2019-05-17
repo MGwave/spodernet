@@ -41,11 +41,11 @@ class Vocab(object):
             self.idx2label[idx] = labels[idx]
 
         # out of vocabulary token
-        token2idx['OOV'] = int(0)
-        idx2token[int(0)] = 'OOV'
-        # empty = 0
-        token2idx[''] = int(1)
-        idx2token[int(1)] = ''
+#         token2idx['OOV'] = int(0)
+#         idx2token[int(0)] = 'OOV'
+#         # empty = 0
+#         token2idx[''] = int(1)
+#         idx2token[int(1)] = ''
 
         self.token2idx = token2idx
         self.idx2token = idx2token
